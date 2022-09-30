@@ -7,9 +7,10 @@ body,
     font-size: 62.5%;
  }
  .pet {
-    font-size: 25px;
+    font-size: 15px;
     display: flex;
     flex-direction: column;
+    width: 30%;
     border: 1px solid rgb(159, 193, 236);
  }
  .container {
