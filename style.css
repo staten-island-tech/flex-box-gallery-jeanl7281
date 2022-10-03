@@ -6,14 +6,28 @@ body,
     box-sizing: border-box;
     font-size: 62.5%;
  }
+ body {
+   background-color:rgb(245, 248, 255);
+ }
  .pet {
     font-size: 15px;
     display: flex;
+    text-align: center;
     flex-direction: column;
     width: 30%;
     border: 1px solid rgb(159, 193, 236);
+    background-color: rgb(224, 234, 255) ;
+    font-family: 'Bitter', serif;
+    color:rgb(99, 150, 216);
+    box-shadow: 1px 8px 10px rgb(144, 180, 214);
+ }
+ .header {
+   text-align: center;
+   font-size: 15px;
+   font-family: 'Bitter', serif;
+   color:rgb(99, 150, 216);
  }
  .container {
    display: flex;
-   justify-content: space-evenly
+   justify-content: space-evenly;
  }
