@@ -46,11 +46,18 @@ body,
   .menu-container{
    flex-direction: column;
   }
+  .main-header{
+    font-size: 20px;
+   }
 }
  @media screen and (max-width:900px) {
   .menu-container{
    flex-direction: row;
+   width: 25%;
   }
+  .main-header{
+    font-size: 20px;
+   }
 }
 
  .header {
