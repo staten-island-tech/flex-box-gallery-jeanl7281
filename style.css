@@ -46,7 +46,7 @@ body,
    flex-direction: row;
   }
 }
-  @media screen and (max-width:414px) {
+  @media screen and (max-width:390px) {
     .menu-container{
      flex-direction: column;
     }
