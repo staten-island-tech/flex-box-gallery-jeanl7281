@@ -22,8 +22,8 @@ body,
     font-family: 'Bitter', serif;
     color:rgb(99, 150, 216);
     box-shadow: 1px 8px 10px rgb(144, 180, 214);
-    width: 15rem;
-    height: 24rem;
+    width: 20rem;
+    height: 32rem;
 }
 
  .rem-size{
@@ -31,26 +31,28 @@ body,
 }
 
  @media screen and (max-width:600px) {
-  .menu-container{
+  .container{
    flex-direction: column;
   }
-  .menu-card{
+  .pet{
    width: 100%;
+   height: 100%;
   }
   .main-header{
    font-size: 20px;
   }
  }
+ @media screen and (max-width:300px) {
+  .menu-container{
+   flex-direction: column;
+  }
+}
  @media screen and (max-width:900px) {
   .menu-container{
    flex-direction: row;
   }
 }
-  @media screen and (max-width:300px) {
-    .menu-container{
-     flex-direction: column;
-    }
-  }
+
  .header {
    font-size: 30px;
    text-align: center;
