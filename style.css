@@ -38,6 +38,13 @@ body,
   .menu-container{
    flex-direction: row;
   }
+  .menu-card{
+    width: 100%;
+   }
+   .main-header{
+    font-size: 20px;
+   }
+  }
 
  .header {
    font-size: 30px;
