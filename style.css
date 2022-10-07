@@ -25,7 +25,7 @@ body,
 
  @media screen and (max-width:600px) {
   .menu-container{
-   flex-direction:column;
+   flex-direction: column;
   }
   .menu-card{
    width: 100%;
@@ -34,7 +34,11 @@ body,
    font-size: 20px;
   }
  }
- 
+ @media screen and (max-width:900px) {
+  .menu-container{
+   flex-direction: row;
+  }
+
  .header {
    font-size: 30px;
    text-align: center;
