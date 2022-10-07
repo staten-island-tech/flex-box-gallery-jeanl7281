@@ -16,16 +16,23 @@ body,
     display: flex;
     flex-direction: column;
     width: 30%;
+    justify-content: space-evenly;
     border: 3px solid rgb(159, 193, 236);
     background-color: rgb(224, 234, 255) ;
     font-family: 'Bitter', serif;
     color:rgb(99, 150, 216);
     box-shadow: 1px 8px 10px rgb(144, 180, 214);
- }
+    width: 15rem;
+    height: 24rem;
+}
+
+ .rem-size{
+    font-size: 2rem;
+}
 
  @media screen and (max-width:600px) {
   .menu-container{
-   flex-direction: column;
+   flex-direction:column;
   }
   .menu-card{
    width: 100%;
@@ -34,18 +41,6 @@ body,
    font-size: 20px;
   }
  }
- @media screen and (max-width:900px) {
-  .menu-container{
-   flex-direction: row;
-  }
-  .menu-card{
-    width: 100%;
-   }
-   .main-header{
-    font-size: 20px;
-   }
-  }
-
  .header {
    font-size: 30px;
    text-align: center;
