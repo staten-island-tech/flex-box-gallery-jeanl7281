@@ -23,11 +23,26 @@ body,
     color:rgb(99, 150, 216);
     box-shadow: 1px 8px 10px rgb(144, 180, 214);
     width: 20rem;
-    height: 32rem;
+    height: 33.5rem;
+    
 }
 
  .rem-size{
     font-size: 2rem;
+}
+.button {
+  border: 0;
+  line-height: 1.5;
+  font-size: 1rem;
+  text-align: center;
+  width: 75px;
+  align-self: center;
+  border-radius: 5px;
+  background-color: rgba(155, 174, 192, 0.281);
+}
+
+.button:hover {
+  background-color: rgb(177, 209, 230);
 }
 
  @media screen and (max-width:600px) {
@@ -41,19 +56,12 @@ body,
   .main-header{
    font-size: 20px;
   }
- }
- @media screen and (max-width:300px) {
-  .menu-container{
-   flex-direction: column;
-  }
-  .main-header{
-    font-size: 20px;
-   }
 }
  @media screen and (max-width:900px) {
   .menu-container{
    flex-direction: row;
-   width: 25%;
+   width: 100%;
+   height: 100%;
   }
   .main-header{
     font-size: 20px;
