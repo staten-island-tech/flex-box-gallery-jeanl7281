@@ -55,6 +55,7 @@ body,
 
 .button1:hover {
   background-color: rgba(218, 235, 241, 0.61);
+  transform: scale(1.5);
 }
 
 .button2 {
