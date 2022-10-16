@@ -25,7 +25,6 @@ body,
     box-shadow: 1px 8px 10px rgb(144, 180, 214);
     width: 20rem;
     height: 32.5rem;
-    margin-top: 10px;   
 }
 
  .rem-size{
@@ -41,6 +40,7 @@ body,
   align-self: center;
   border-radius: 5px;
   background-color: rgba(155, 174, 192, 0.281);
+  margin-bottom: 5px;
 }
 
 .button1:hover {
@@ -58,6 +58,7 @@ body,
   align-self: center;
   border-radius: 5px;
   background-color: rgba(155, 174, 192, 0.281);
+  margin-bottom: 5px;
 }
 
 .button2:hover {
@@ -74,6 +75,7 @@ body,
   align-self: center;
   border-radius: 5px;
   background-color: rgba(155, 174, 192, 0.281);
+  margin-bottom: 5px;
 }
 
 .button3:hover {
@@ -90,6 +92,7 @@ body,
   align-self: center;
   border-radius: 5px;
   background-color: rgba(155, 174, 192, 0.281);
+  margin-bottom: 5px;
 }
 
 .button4:hover {
@@ -106,6 +109,7 @@ body,
   align-self: center;
   border-radius: 5px;
   background-color: rgba(155, 174, 192, 0.281);
+  margin-bottom: 5px;
 }
 
 .button5:hover {
@@ -122,6 +126,7 @@ body,
   align-self: center;
   border-radius: 5px;
   background-color: rgba(155, 174, 192, 0.281);
+  margin-bottom: 5px;
 }
 
 .button6:hover {
@@ -138,6 +143,7 @@ body,
   align-self: center;
   border-radius: 5px;
   background-color: rgba(155, 174, 192, 0.281);
+  margin-bottom: 5px;
 }
 
 .button7:hover {
@@ -154,6 +160,7 @@ body,
   align-self: center;
   border-radius: 5px;
   background-color: rgba(155, 174, 192, 0.281);
+  margin-bottom: 5px;
 }
 
 .button8:hover {
@@ -170,6 +177,7 @@ body,
   align-self: center;
   border-radius: 5px;
   background-color: rgba(155, 174, 192, 0.281);
+  margin-bottom: 5px;
 }
 
 .button9:hover {
