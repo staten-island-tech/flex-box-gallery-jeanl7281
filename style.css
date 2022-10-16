@@ -12,7 +12,7 @@ body,
  }
 
  .header-title {
-  font-size: 30px;
+  font-size: 50px;
   text-align: center;
   font-family: 'Bitter', serif;
   color:rgb(99, 150, 216);
@@ -20,7 +20,6 @@ body,
 
 .header-title:hover {
   color:rgba(155, 174, 192, 0.281);
-  background-color: lightblue;
 }
 
  .pet {
