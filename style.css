@@ -216,4 +216,6 @@ body,
    display: flex;
    justify-content: space-evenly;
    text-align: center;
+   height: 50rem;
+   width: 30rem;
  }
