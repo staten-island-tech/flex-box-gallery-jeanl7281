@@ -16,10 +16,20 @@ body,
   text-align: center;
   font-family: 'Bitter', serif;
   color:rgb(99, 150, 216);
+  -webkit-animation: title 10s linear infinite, bg 10s linear infinite;
+  display: inline-block;
 }
 
-.header-title:hover {
-  color:rgba(155, 174, 192, 0.281);
+@-webkit-keyframes title {
+  0% {
+    color: rgb(138, 206, 255);
+  }
+  50% {
+    color: #5f9edc;
+  }
+  100% {
+    color: rgb(100, 98, 212);
+  }
 }
 
  .pet {
