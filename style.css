@@ -23,8 +23,8 @@ body,
     font-family: 'Bitter', serif;
     color:rgb(99, 150, 216);
     box-shadow: 1px 8px 10px rgb(144, 180, 214);
-    width: 20rem;
-    height: 25rem;
+    width: 25rem;
+    height: 35rem;
 }
 
  .rem-size{
@@ -216,6 +216,4 @@ body,
    display: flex;
    justify-content: space-evenly;
    text-align: center;
-   height: 50rem;
-   width: 30rem;
  }
