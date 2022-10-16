@@ -27,6 +27,11 @@ body,
     height: 35rem;
 }
 
+.img {
+  height: 28rem;
+  width: 25rem;
+}
+
  .rem-size{
     font-size: 2rem;
 }
