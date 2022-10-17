@@ -26,13 +26,13 @@ body,
 
 @-webkit-keyframes title {
   0% {
-    color: rgb(52, 137, 198);
+    color: rgb(123, 213, 255);
   }
   50% {
-    color: #5f9edc;
+    color: #62a0f1;
   }
   100% {
-    color: rgb(100, 98, 212);
+    color: rgb(128, 156, 248);
   }
 }
 
@@ -70,7 +70,7 @@ body,
 }
 
 .button1:hover {
-  background-color: rgb(130, 207, 255);
+  background-color: rgb(181, 227, 255);
   transform: scale(1.5);
 }
 
@@ -89,7 +89,7 @@ body,
 }
 
 .button2:hover {
-  background-color: rgb(98, 194, 254);
+  background-color: rgb(139, 211, 255);
   transform: scale(1.3);
 }
 
@@ -108,7 +108,7 @@ body,
 }
 
 .button3:hover {
-  background-color: rgb(36, 162, 240);
+  background-color: rgb(112, 200, 255);
   transform: scale(1.1);
 }
 
@@ -127,8 +127,8 @@ body,
 }
 
 .button4:hover {
-  background-color: rgb(154, 181, 255);
-  transform: scale(0.9);
+  background-color: rgb(194, 215, 255);
+  border-radius: 15px;
 }
 
 .button5 {
@@ -146,8 +146,8 @@ body,
 }
 
 .button5:hover {
-  background-color: rgb(131, 163, 250);
-  transform: scale(0.8);
+  background-color: rgb(153, 189, 255);
+  border-radius: 13px;
 }
 
 .button6 {
@@ -165,8 +165,8 @@ body,
 }
 
 .button6:hover {
-  background-color: rgb(101, 155, 255);
-  transform: scale(0.7);
+  background-color: rgb(126, 171, 255);
+  border-radius: 11px;
 }
 
 .button7 {
@@ -203,7 +203,7 @@ body,
 }
 
 .button8:hover {
-  background-color: rgb(125, 222, 254);
+  background-color: rgb(144, 227, 255);
   letter-spacing: 5px;
 }
 
@@ -222,7 +222,7 @@ body,
 }
 
 .button9:hover {
-  background-color: rgb(35, 199, 253);
+  background-color: rgb(113, 220, 255);
   letter-spacing: 3px;
 }
  @media screen and (max-width:600px) {
