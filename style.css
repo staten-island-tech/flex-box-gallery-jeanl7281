@@ -248,7 +248,7 @@ body,
 }
  @media screen and (max-width:900px) {
   .menu-container{
-   flex-direction: row;
+   flex-direction: column;
   }
   .pet {
    width: 100%;
