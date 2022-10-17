@@ -127,7 +127,7 @@ body,
 }
 
 .button4:hover {
-  background-color: rgb(154, 161, 255);
+  background-color: rgb(154, 181, 255);
   transform: scale(0.9);
 }
 
@@ -146,8 +146,8 @@ body,
 }
 
 .button5:hover {
-  background-color: rgb(131, 139, 250);
-  transform: scale(0.7);
+  background-color: rgb(131, 163, 250);
+  transform: scale(0.8);
 }
 
 .button6 {
@@ -165,8 +165,8 @@ body,
 }
 
 .button6:hover {
-  background-color: rgb(101, 111, 255);
-  transform: scale(0.5);
+  background-color: rgb(101, 155, 255);
+  transform: scale(0.7);
 }
 
 .button7 {
@@ -222,7 +222,7 @@ body,
 }
 
 .button9:hover {
-  background-color: rgb(64, 205, 252);
+  background-color: rgb(35, 199, 253);
   letter-spacing: 3px;
 }
  @media screen and (max-width:600px) {
