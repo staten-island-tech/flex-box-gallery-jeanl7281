@@ -128,11 +128,16 @@ body,
   margin-bottom: 10px;
   margin-top: 5px;
   transition-duration: 1s;
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #54b3d6;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
 .button4:hover {
-  background-color: rgb(194, 215, 255);
-  border-radius: 15px;
+  box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: white;
 }
 
 .button5 {
@@ -156,8 +161,6 @@ body,
 }
 
 .button6 {
-  border: 1;
-  border-color: rgb(99, 150, 216);
   line-height: 1.5;
   font-size: 1rem;
   text-align: center;
@@ -167,14 +170,44 @@ body,
   background-color: rgb(172, 214, 253);
   margin-bottom: 10px;
   margin-top: 5px;
+  background-image: linear-gradient(
+    to right,
+    #54b3d6,
+    #54b3d6 50%,
+    #000 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
   transition-duration: 1s;
 }
 
-.button6:hover {
-  background-color: rgb(126, 171, 255);
-  border-radius: 11px;
+.button6:before{
+  content: '';
+  background: #54b3d6;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
 }
 
+
+.button6:hover {
+  background-color: rgb(126, 171, 255);
+  background-position: 0;
+}
+
+.button6:hover::before{
+  width: 100%;
+}
 .button7 {
   border: 1;
   border-color: rgb(99, 150, 216);
@@ -216,24 +249,62 @@ body,
 }
 
 .button9 {
-  border: 1;
-  border-color: rgb(99, 150, 216);
   line-height: 1.5;
   font-size: 1rem;
   text-align: center;
   width: 65px;
-  align-self: center;
-  border-radius: 5px;
   background-color: rgb(172, 214, 253);
+  align-self: center;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  transition-duration: 1s;
   margin-bottom: 10px;
   margin-top: 5px;
-  transition-duration: 1s;
 }
 
-.button9:hover {
-  background-color: rgb(113, 220, 255);
-  letter-spacing: 3px;
+.button9::before,
+.button9::after {
+ content: '';
+  position: absolute;
+  width: 100%;
+  left: 0;
 }
+.button9::before {
+  background-color: #54b3d6;
+  height: 2px;
+  bottom: 0;
+  transform-origin: 100% 50%;
+  transform: scaleX(0);
+  transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+.button9::after {
+  content: attr(data-replace);
+  height: 100%;
+  top: 0;
+  transform-origin: 100% 50%;
+  transform: translate3d(200%, 0, 0);
+  transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+  color: #54b3d6;
+}
+
+.button9:hover::before {
+  transform-origin: 0% 50%;
+  transform: scaleX(1);
+}
+.button9:hover::after {
+  transform: translate3d(0, 0, 0);
+}
+
+.button9 span {
+  display: inline-block;
+  transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.button9:hover span {
+  transform: translate3d(-200%, 0, 0);
+}
+
  @media screen and (max-width:600px) {
   .container{
    flex-direction: column;
