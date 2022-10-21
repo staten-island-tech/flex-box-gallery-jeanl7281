@@ -132,7 +132,7 @@ body,
   color: #54b3d6;
   margin: 0 -.25rem;
   padding: 0 .25rem;
-  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  transition: color 1s ease-in-out, box-shadow 1s ease-in-out;
 }
 
 .button4:hover {
@@ -183,8 +183,7 @@ body,
   position: relative;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  transition: all 0.3s ease-in-out;
-  transition-duration: 1s;
+  transition: all 1s ease-in-out;
 }
 
 .button6:before{
