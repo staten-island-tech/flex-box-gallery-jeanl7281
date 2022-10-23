@@ -1,7 +1,7 @@
 html,
 body,
 +{
-    padding 0
+    padding 0:
     margin: 0
     box-sizing: border-box
     font-size: 62.5%
@@ -321,7 +321,10 @@ body,
 @media only screen 
 and (min-device-width : 820px) 
 and (max-device-width : 1080px) 
-and (orientation : landscape) 
+and (orientation : landscape) {
+   .container{
+   flex-direction: column;
+  }
   .pet{
    width: 100%;
    height: 100%;
