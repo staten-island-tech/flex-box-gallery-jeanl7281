@@ -323,7 +323,7 @@ and (min-device-width : 820px)
 and (max-device-width : 1080px) 
 and (orientation : landscape) {
    .container{
-   flex-direction: column;
+   flex-direction: row;
   }
   .pet{
    width: 100%;
